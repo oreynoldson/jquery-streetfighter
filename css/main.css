@@ -56,3 +56,50 @@ body{
 	top: 167px;
 	left: -212px;
 }
+
+.logo{
+	background-image: url("../images/street-fighter-logo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	width: 150px;
+	height: 200px;
+}
+
+footer{
+	color: red;
+	display: block;
+	width: 200px;
+	margin: 5px auto;
+}
+
+.controls{
+	float: right;
+	position: absolute;
+	top: 300px;
+	right: 50px;
+	border: solid 1px red;
+	width: 500px;
+	height: 250px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.controls h2 {
+	font-size: 2em;
+	padding: 10px;
+	text-align: center;
+}
+
+.controls p{
+	font-size: 1.50em;
+	padding-left: 30px;
+	border: solid 1px yellow;
+	margin-top: 20px;
+}
+
+.controls span{
+	color: red;
+}
+	
