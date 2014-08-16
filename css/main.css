@@ -14,7 +14,6 @@ body{
 .ryu{
 	float:left;
 	height: inherit;
-	border: dashed 1px red;
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool{
@@ -80,7 +79,6 @@ footer{
 	position: absolute;
 	top: 300px;
 	right: 50px;
-	border: solid 1px red;
 	width: 500px;
 	height: 250px;
 	font-family: 'Permanent Marker', cursive;
@@ -95,7 +93,6 @@ footer{
 .controls p{
 	font-size: 1.50em;
 	padding-left: 30px;
-	border: solid 1px yellow;
 	margin-top: 20px;
 }
 

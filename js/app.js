@@ -34,8 +34,11 @@ $(document).ready(function(){
 			$(".ryu-cool").show();
 			}
 		})
-	$(document).keyup(function(event){
-		if(event.which == 88){
+	$(document).keyup(function(){
+		if($(".ryu").is(":hover")){
+			$(".ryu-cool").hide();
+			$(".ryu-ready").show();
+		} else{
 			$(".ryu-cool").hide();
 			$(".ryu-still").show();
 		}
